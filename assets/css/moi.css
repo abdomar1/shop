@@ -1,0 +1,116 @@
+/*style moi*/
+.pub,
+img {
+    height: 400px;
+    width: 70%
+}
+
+#pro {
+    width: 200px;
+    height: 200px
+}
+
+.paiem img {
+    width: 60px;
+    height: 60px;
+    margin: 15px;
+}
+
+.fo ,.how{
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+}
+
+.text-center {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.log {
+    width: 50px;
+    height: 50px;
+}
+
+/* .fex{position:fixed;
+z-index: 3;
+overflow-x: scroll;
+} */
+#BU {
+    opacity: .1;
+}
+
+.bbb {
+    float: left;
+}
+
+.bb {
+    text-align: center;
+}
+
+/*drop downe colum===========*/
+/* .rela{position: relative;}  */
+
+
+.colum {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.abso {
+    /* position: absolute; */
+
+    display: none;
+
+}
+
+.hover:hover .abso {
+    display: flex;
+}
+
+.ico {
+    font-size: 20px;
+    color: black;
+}
+
+
+.lin:hover {
+    
+    color: black;
+    font-size: 18px;
+}
+
+a:hover .ico {
+    color: cyan;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* nav de produit le nom */
+.navpro {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+}
+/* panire ========= */
+#cart{
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+}
+#ajo{background-color: yellow;
+position: absolute;
+width: 15px;
+height:15px;
+top: -10px;
+right: -5px;
+font-size: 10px;
+border-radius: 50px;
+padding: 2px;}
+
+/* =============== btn dyal shop =============*/
+
+/*=========================================================================================*/
