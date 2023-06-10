@@ -1,0 +1,5 @@
+code_admin:admin123
+Analyze "click_shop": sqp_ee6d34c37a77be16695f92be4e2278f6cd5dc369
+
+code de test:
+sonar-scanner.bat -D"sonar.projectKey=click_shop" -D"sonar.sources=." -D"sonar.host.url=http://localhost:9000" -D"sonar.login=sqp_ee6d34c37a77be16695f92be4e2278f6cd5dc369"
